@@ -91,13 +91,6 @@ export default function DealsOptions({
                       {" "}
                       <Edit strokeWidth={1} className="mr-2" /> Edit
                     </div>
-                    <div className="flex justify-between items-center p-3 hover:bg-gray-100 cursor-pointer">
-                      {" "}
-                      <div className="flex">
-                        <Move strokeWidth={1} className="mr-2" /> Move To
-                      </div>
-                      <ChevronDown strokeWidth={1} />
-                    </div>
                     <div
                       className="flex items-center p-3 hover:bg-gray-100 cursor-pointer"
                       onClick={handleOpenDeleteModal.bind(this, id)}
